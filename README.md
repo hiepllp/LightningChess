@@ -7,6 +7,11 @@ Link to video: [https://www.youtube.com/watch?v=o4EHBSZUAEI](https://www.youtube
 Source code is ready for deployment to any org.
 To add lightning chess to a dev org do the following:
 
+<a href="https://githubsfdeploy.herokuapp.com?owner=&repo=">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 1. Deploy the src
 2. Assign the LightningChess Permissions permission set to the user you allow to play chess
 3. Dataload the Push Topic file provided to setup the streaming api channels.
